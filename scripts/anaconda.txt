@@ -1,0 +1,3 @@
+
+# Update anaconda every month
+conda env update
