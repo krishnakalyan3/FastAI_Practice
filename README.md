@@ -6,7 +6,7 @@
 N. Virginia FastAI ami-c6ac1cbc
 
 ```
-ssh -i ubuntu@$IP -L8888:localhost:8888
+ssh -i krishna.pem ubuntu@54.221.107.220 -L8889:localhost:8889
 ```
 
 #### Notes
