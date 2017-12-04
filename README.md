@@ -9,6 +9,12 @@ N. Virginia FastAI ami-c6ac1cbc
 ssh -i krishna.pem ubuntu@54.221.107.220 -L8889:localhost:8889
 ```
 
+#### Jupyter
+jupyter notebook --generate-config
+
+cd .jupyter
+c.NotebookApp.ip = '*'
+
 #### Notes
 
 ##### Step 1
