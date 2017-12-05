@@ -18,6 +18,13 @@ c.NotebookApp.allow_origin = '*'
 c.NotebookApp.ip = '0.0.0.0'
 ```
 
+#### Instance Config
+```
+sudo apt-get update
+pip install gpustat
+```
+
+
 #### Notes
 
 ##### Step 1
