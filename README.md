@@ -20,6 +20,8 @@ c.NotebookApp.ip = '0.0.0.0'
 
 #### Instance Config
 ```
+# Update Fast AI library
+conda env update
 sudo apt-get update
 pip install gpustat
 ```
