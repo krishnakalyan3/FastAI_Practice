@@ -21,9 +21,13 @@ c.NotebookApp.ip = '0.0.0.0'
 #### Instance Config
 ```
 # Update Fast AI library
+# conda should be updated in the fastai directory
 conda env update
 sudo apt-get update
 pip install gpustat
+# configure S3 credentials
+conda install keras
+conda install dask
 ```
 
 

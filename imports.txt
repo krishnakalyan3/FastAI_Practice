@@ -1,0 +1,10 @@
+%reload_ext autoreload
+%autoreload 2
+%matplotlib inline
+
+import sys
+LOCAL_FAST_AI = '/Users/krishnakalyan3/Educational/FastAI/fastai/'
+AWS_FAST_AI = '/home/ubuntu/fastai'
+sys.path.append(AWS_FAST_AI)
+
+
